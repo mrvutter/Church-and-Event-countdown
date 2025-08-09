@@ -1,0 +1,36 @@
+CHURCH COUNTDOWN TIMER SOFTWARE LICENSE AGREEMENT
+Version 1.1.0
+
+END-USER LICENSE AGREEMENT (EULA)
+
+This End-User License Agreement ("EULA") is a legal agreement between you (either an individual or a single entity) and Church Timer App for the Church Countdown Timer software product, which includes computer software and may include associated media, printed materials, and "online" or electronic documentation ("Software").
+
+1. GRANT OF LICENSE
+This EULA grants you the following rights:
+• Installation and Use: You may install and use an unlimited number of copies of the Software.
+• Distribution: You may distribute the Software freely to others.
+
+2. DESCRIPTION OF OTHER RIGHTS AND LIMITATIONS
+• The Software is provided "AS IS" without warranty of any kind.
+• You may not reverse engineer, decompile, or disassemble the Software.
+• You may not rent, lease, or lend the Software.
+
+3. COPYRIGHT
+The Software is protected by copyright laws and international copyright treaties, as well as other intellectual property laws and treaties.
+
+4. NO WARRANTIES
+Church Timer App expressly disclaims any warranty for the Software. The Software and any related documentation is provided "as is" without warranty of any kind, either express or implied, including, without limitation, the implied warranties of merchantability, fitness for a particular purpose, or non-infringement.
+
+5. LIMITATION OF LIABILITY
+In no event shall Church Timer App be liable for any damages whatsoever arising out of the use of or inability to use this Software.
+
+6. TERMINATION
+This EULA is effective until terminated. You may terminate it at any time by destroying the Software and all copies thereof.
+
+By installing the Software, you acknowledge that you have read this agreement, understand it, and agree to be bound by its terms and conditions.
+
+Contact Information:
+Church Timer App
+Email: support@churchtimer.app
+
+Copyright © 2025 Church Timer App. All rights reserved.

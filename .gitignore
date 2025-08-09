@@ -24,3 +24,6 @@ Thumbs.db
 
 # Distribution files (too large for git)
 ChurchCountdownTimer/ChurchTimer_Distribution_*/
+
+# Installer packages (too large for git)
+*Installer*.zip

@@ -1,0 +1,16 @@
+<Project Sdk="WiX.SDK/4.0.5">
+
+  <PropertyGroup>
+    <OutputType>Package</OutputType>
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="WiX.Heat" Version="4.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ChurchCountdownTimer\ChurchCountdownTimer.csproj" />
+  </ItemGroup>
+
+</Project>
