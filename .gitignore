@@ -30,3 +30,8 @@ ChurchCountdownTimer/ChurchTimer_Distribution_*/
 *SingleFile*.exe
 ChurchCountdownTimer.exe
 ChurchCountdownTimer_Ready_To_Install.zip
+
+# Large executables and deployment files
+*.exe
+!ChurchCountdownTimer.Installer/app/createdump.exe
+ChurchCountdownTimer.Installer/ChurchCountdownTimer.exe
