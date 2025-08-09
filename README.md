@@ -12,22 +12,23 @@ A professional countdown timer application designed for speakers, preachers, and
 
 ## 🚀 Quick Start
 
-### Option 1: Direct Use (Recommended)
-1. Download `ChurchCountdownTimer.exe` from [Releases](../../releases)
-2. Double-click to run immediately
-3. No installation needed!
+### For Users (Easy Installation)
+1. Download the latest release from [GitHub Releases](../../releases)
+2. Extract `ChurchCountdownTimer_Ready_To_Install.zip`
+3. Right-click `FullInstall.bat` and select "Run as administrator"
+4. Use desktop shortcut or Start Menu to launch
 
-### Option 2: Professional Installation
-1. Download `ChurchCountdownTimer_Ready_To_Install.zip` from [Releases](../../releases)
-2. Extract the ZIP file
-3. Right-click `QuickInstall.bat` and select "Run as administrator"
-4. Creates desktop and start menu shortcuts
+### For Developers (Build from Source)
+1. Clone this repository
+2. Install [.NET 8.0 SDK](https://dotnet.microsoft.com/download)
+3. Run `BuildAndDeploy.bat` to build the application
+4. Run `CreateDistributionPackage.bat` to create the distribution ZIP
 
 ## 💻 System Requirements
 
 - Windows 10/11 (32-bit or 64-bit)
-- No additional software required
-- Self-contained executable includes all dependencies
+- No .NET runtime required (self-contained deployment)
+- Administrator privileges for installation only
 
 ## 🎯 Perfect For
 
@@ -37,16 +38,26 @@ A professional countdown timer application designed for speakers, preachers, and
 - **Public Speaking** - Professional timing displays
 - **Workshops** - Session time tracking
 
+## 🔧 Build Instructions
+
+This project uses a build system to avoid storing large files in git:
+
+1. **Prerequisites**: .NET 8.0 SDK
+2. **Build**: `BuildAndDeploy.bat` - Creates self-contained deployment
+3. **Package**: `CreateDistributionPackage.bat` - Creates distribution ZIP
+4. **Distribute**: Share the generated ZIP file
+
 ## 📁 Project Structure
 
 ```
-📁 ChurchCountdownTimer/          # Source code
-📁 ChurchCountdownTimer.Installer/ # Installation tools
-📄 ChurchCountdownTimer.exe       # Ready-to-use app (Download from Releases)
-📦 ChurchCountdownTimer_Ready_To_Install.zip # Distribution package (Download from Releases)
+📁 ChurchCountdownTimer/              # Source code (.NET 8.0 WPF)
+📁 ChurchCountdownTimer.Installer/    # Installation scripts and tools
+📄 BuildAndDeploy.bat                 # Build the application locally
+📄 CreateDistributionPackage.bat      # Create distribution ZIP
+📦 ChurchCountdownTimer_Ready_To_Install.zip # Generated distribution package
 ```
 
-> **Note**: Large executable files (153MB) are distributed via [GitHub Releases](../../releases) to keep the repository lightweight.
+> **Note**: Large deployment files are built locally and not stored in git. This keeps the repository lightweight while maintaining full functionality.
 
 ## 🛠️ Development
 

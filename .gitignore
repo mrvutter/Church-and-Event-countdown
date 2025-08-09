@@ -35,3 +35,6 @@ ChurchCountdownTimer_Ready_To_Install.zip
 *.exe
 !ChurchCountdownTimer.Installer/app/createdump.exe
 ChurchCountdownTimer.Installer/ChurchCountdownTimer.exe
+
+# Self-contained deployment files (too large for git)
+ChurchCountdownTimer.Installer/app/
