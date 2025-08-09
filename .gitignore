@@ -1,0 +1,26 @@
+# Build outputs
+ChurchCountdownTimer/bin/
+ChurchCountdownTimer/obj/
+ChurchCountdownTimer/publish/
+*.user
+*.suo
+*.cache
+.vs/
+
+# Backup files
+*.backup
+*.bak
+backup/
+backup_date.txt
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+*.swp
+*.swo
+*~
+
+# Distribution files (too large for git)
+ChurchCountdownTimer/ChurchTimer_Distribution_*/
