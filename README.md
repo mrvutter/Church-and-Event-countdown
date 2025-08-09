@@ -13,12 +13,12 @@ A professional countdown timer application designed for speakers, preachers, and
 ## 🚀 Quick Start
 
 ### Option 1: Direct Use (Recommended)
-1. Download `ChurchCountdownTimer.exe`
+1. Download `ChurchCountdownTimer.exe` from [Releases](../../releases)
 2. Double-click to run immediately
 3. No installation needed!
 
 ### Option 2: Professional Installation
-1. Download `ChurchCountdownTimer_Ready_To_Install.zip`
+1. Download `ChurchCountdownTimer_Ready_To_Install.zip` from [Releases](../../releases)
 2. Extract the ZIP file
 3. Right-click `QuickInstall.bat` and select "Run as administrator"
 4. Creates desktop and start menu shortcuts
@@ -42,9 +42,11 @@ A professional countdown timer application designed for speakers, preachers, and
 ```
 📁 ChurchCountdownTimer/          # Source code
 📁 ChurchCountdownTimer.Installer/ # Installation tools
-📄 ChurchCountdownTimer.exe       # Ready-to-use application
-📦 ChurchCountdownTimer_Ready_To_Install.zip # Distribution package
+📄 ChurchCountdownTimer.exe       # Ready-to-use app (Download from Releases)
+📦 ChurchCountdownTimer_Ready_To_Install.zip # Distribution package (Download from Releases)
 ```
+
+> **Note**: Large executable files (153MB) are distributed via [GitHub Releases](../../releases) to keep the repository lightweight.
 
 ## 🛠️ Development
 
