@@ -26,7 +26,7 @@ echo Creating installation directory...
 mkdir "%INSTALL_DIR%" 2>nul
 
 echo Installing application...
-copy "%~dp0ChurchCountdownTimer.exe" "%INSTALL_DIR%\" >nul
+xcopy "%~dp0*" "%INSTALL_DIR%\" /E /H /Y >nul
 if %errorLevel% neq 0 (
     echo [ERROR] Failed to copy application files
     pause
